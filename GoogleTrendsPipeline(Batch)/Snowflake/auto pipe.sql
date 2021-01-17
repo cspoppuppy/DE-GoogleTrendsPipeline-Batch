@@ -18,12 +18,12 @@ create or replace file format mycsvformat
 //==============================================================================
 create or replace stage snowpipe.staging.googletrends_stage1
 url='s3://lastgreedymosquito-googletrends1/'
-credentials = (AWS_KEY_ID = 'AKIA5MJHYQN4OCSSZME2' AWS_SECRET_KEY = 'vIWDXXb6P6My/XyBIhyPw5KPIw2Ffw3xUJHqrvb9')
+credentials = (AWS_KEY_ID = '***********' AWS_SECRET_KEY = '***********')
 file_format = mycsvformat;
 
 create or replace stage snowpipe.staging.googletrends_stage2
 url='s3://lastgreedymosquito-googletrends2/'
-credentials = (AWS_KEY_ID = 'AKIA5MJHYQN4OCSSZME2' AWS_SECRET_KEY = 'vIWDXXb6P6My/XyBIhyPw5KPIw2Ffw3xUJHqrvb9')
+credentials = (AWS_KEY_ID = '***********' AWS_SECRET_KEY = '***********')
 file_format = mycsvformat;
 
 show stages;
