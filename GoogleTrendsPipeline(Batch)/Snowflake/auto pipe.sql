@@ -48,7 +48,7 @@ create or replace table snowpipe.staging.interest_by_region
 
 
 //==============================================================================
-// Create a pipe to ingest CSV data
+// Create pipes to ingest CSV data
 //==============================================================================
 create or replace pipe snowpipe.staging.googletrends_pipe1 auto_ingest=true as 
     copy into snowpipe.staging.interest_over_time
