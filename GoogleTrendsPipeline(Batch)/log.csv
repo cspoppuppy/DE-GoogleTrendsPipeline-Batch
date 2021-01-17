@@ -1,0 +1,13 @@
+Date, Message
+17/01/2021 18:27:02,Start new batch
+17/01/2021 18:27:04,Pulled data from Google Trends
+17/01/2021 18:27:04,Saved raw data to S3 (bucket1)
+17/01/2021 18:27:04,Processed and saved data to S3 (googletrends1 and googletrends2)
+17/01/2021 18:27:19,Start new batch
+17/01/2021 18:27:21,Pulled data from Google Trends
+17/01/2021 18:27:21,Saved raw data to S3 (bucket1)
+17/01/2021 18:27:21,Processed and saved data to S3 (googletrends1 and googletrends2)
+17/01/2021 18:32:29,Successfully processed batch
+17/01/2021 18:32:57,Failed to process batch: division by zero
+17/01/2021 19:18:08,Successfully processed batch
+17/01/2021 19:29:50,Successfully processed batch
