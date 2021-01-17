@@ -31,4 +31,4 @@ to role snowpipe_read_only;
 //==============================================================================
 // Create test_user
 //==============================================================================
-create user test_user password='GoogleTrends.1' default_role = snowpipe_read_only must_change_password = false;
+create user test_user password='**********' default_role = snowpipe_read_only must_change_password = false;
