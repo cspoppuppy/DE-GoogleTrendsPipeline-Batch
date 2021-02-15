@@ -7,7 +7,7 @@ https://trends.google.com/trends/?geo=US
 Ingest "inverest over time" and "interest by subregion" data into Snowflake data warehouse. Pipeline executes every hour and ingest incremental data.
 
 #### Architecture Diagram
-![diagram](https://github.com/cspoppuppy/DataEngineering/blob/main/GoogleTrendsPipeline(Batch)/diagram.JPG)
+![diagram](./diagram.JPG)
 
 #### Technology
 
